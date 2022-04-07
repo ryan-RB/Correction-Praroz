@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
             sessionStorage.setItem("utilisateur", "idsession");
         } else {
             warning.classList.add("error");
-            warning.innerText = "Mail ou mot de passe incorrecte.";
+            warning.innerText = "Mail ou mot de passe incorrect.";
             warning.classList.remove("success");
         }
     };
