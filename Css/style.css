@@ -65,6 +65,9 @@ header h1{
 header nav{
     height: 10vh;
 }
+header form input::placeholder{
+    color: rgb(207, 204, 204);
+}
 
 nav ul{
     display: flex;
